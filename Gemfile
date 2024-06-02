@@ -48,7 +48,7 @@ group :development, :mysql do
 end
 
 group :development, :test, :mysql do
-  gem "capybara"
+  gem "capybara", ">= 3.30.0"
   gem "database_cleaner"
   gem "launchy"
   gem "poltergeist"
